@@ -35,7 +35,7 @@ export default class PostAddForm extends Component {
                 >
                 <input 
                 type="text"
-                placeholder='о чеи дкматет?'
+                placeholder='Ваше сообщение?'
                 className='form-control new-post-label'
                 onChange={this.onValueChange}
                 value={this.state.text}
